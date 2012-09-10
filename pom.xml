@@ -13,6 +13,7 @@
 		<developerConnection>scm:git:git@github.com:objectos/objectos-comuns-cli.git</developerConnection>
 	</scm>
 	<properties>
+    	<args4j.version>2.0.12</args4j.version>
 		<org.jcommander.version>1.27</org.jcommander.version>
 		<org.mvel.version>2.1.Beta6</org.mvel.version>
 		<org.yaml.version>1.10</org.yaml.version>
@@ -23,6 +24,11 @@
 			<groupId>com.google.inject.extensions</groupId>
 			<artifactId>guice-multibindings</artifactId>
 			<version>${google.guice.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>args4j</groupId>
+			<artifactId>args4j</artifactId>
+			<version>${args4j.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.beust</groupId>
